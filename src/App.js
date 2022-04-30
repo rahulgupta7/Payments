@@ -23,8 +23,8 @@ function App() {
     <Payment/>
     <Routes>
     <Route exact path="/" element={<CreditCard/>}/>
-    <Route exact path="BankTransfer" element={<BankTransfer/>}/>
-    <Route exact path="Paypal" element={<Paypal/>}/>
+    <Route exact path="BankTransfer"   element={<BankTransfer/>}/>
+    <Route exact path="Paypal"       element={<Paypal/>}/>
     </Routes>
     </div>
   );
